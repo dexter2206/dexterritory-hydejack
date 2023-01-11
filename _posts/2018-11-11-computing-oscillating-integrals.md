@@ -6,10 +6,7 @@ image:
     path: /assets/img/oscillating-integrals/integrand@2x.png
 tags: [python, scientific-computing]
 ---
-
-## Introduction
-
-Recently during my research I stumbled upon the following indefinite integral that needed to be computed for various values of $\omega \in (0, \infty)$. Well, maybe not precisely this integral but a really similar one. Anyway here it goes:
+	Recently during my research I stumbled upon the following indefinite integral that needed to be computed for various values of $\omega \in (0, \infty)$. Well, maybe not precisely this integral but a really similar one. Anyway here it goes:
 
 $$
 I(\omega) = \int_0^\infty x\exp(-x)cos(\omega x) dx.
