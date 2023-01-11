@@ -1,0 +1,211 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Konrad Jałowiecki"
+  label: "Software engineer / software architect"
+  picture: "/assets/img/avatar.jpg"
+  email: "dexter2206@gmail.com"  
+  website: "https://dexterritory.net" 
+  location:    
+    city: "Katowice"
+    countryCode: "PL"
+    region: "Silesia"
+  profiles:    
+    - network: "Github"
+      username: "dexter2206"
+      url: "https://www.github.com/dexter2206"
+    - network: "LinkedIn"
+      username: "konradjalowiekci"
+      url: "https://www.linkedin.com/in/konradjalowiecki/"
+    - network: "Facebook"
+      username: "konrad.jalowiecki"
+      url: "https://www.facebook.com/konrad.jalowiecki"
+    - network: "Instagram"
+      username: "programmingboar"
+      url: "https://www.instagram.com/programmingboar/"
+    - network: "Instagram"
+      username: "swagrad"
+      url: "https://www.instagram.com/swagrad/"
+
+work:
+  - company: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences"
+    position: "Software developer"
+    website: ""
+    startDate: "2021-02-01"
+    endDate: ""
+    summary: >
+      Working as a software developer in [EuroHPC PL](https://www.eurohpc.pl/) project.
+    highlights:
+      - Developing the Omnisolver software, a versatile
+        framework for implementing QUBO and Ising spin glass solvers.
+
+        <a href="https://github.com/euro-hpc-pl/omnisolver">https://github.com/euro-hpc-plomnisolver</a>
+      - Developing the SpinGlassPEPS.jl, a Julia package implementing novel tensor-network based
+        algorithm for finding low-energy spectrum of Ising spin glasses.
+
+        <a href="https://github.com/euro-hpc-pl/spinglasspeps.jl">
+          https://github.com/euro-hpc-pl/spinglasspeps.jl
+        </a>
+      - Developing PyQBench Python package and CLI tool for
+        benchmarking gate-based quantum computers.
+
+        <a href="https://github.com/iitis/pyqbench">https://github.com/iitis/pyqbench</a>
+  - company: "Zapata Computing Inc."
+    position: "Quantum Science Consultant"
+    startDate: "2020-06-01"
+    endDate: ""
+    summary: |
+      Developing parts of Orquestra software.
+      <a href="https://www.zapatacomputing.com/orquestra-platform/">
+        https://www.zapatacomputing.com/orquestra-platform/
+      </a>
+    highlights: 
+      - Participated in creating libraries for modelling quantum circuits and interfacing with
+        third-party hardware solutions and simulators.
+      - Consulting in the design process and assisting in debugging.
+  - company: "relayr"
+    startDate: "2020-06-01"
+    endDate: "2021-10-30"
+    position: Senior Software Engineer
+    summary: Worked in Professional Services development team, tasked mainly with creating
+      and maintaining tools used internally by the Professional Services team.
+    highlights:
+      - Participated in design and development of a tool capable of emulating multiple
+        IoT devices. The emulator utilized asyncio framework for cooperative multitasking
+        and was capable of emulating tousands of devices on a single core machine.
+      - Organized several programming workshops for QA team.
+  - company: "Bohr Technology Inc."
+    startDate: "2018-09-01"
+    endDate: "2019-03-30"
+    position: Researcher / Software Engineer
+    summary: Researched quantum algorithms and their applications. Implemented some of the
+      algorithms in Python.
+  - company: "relayr"
+    startDate: "2017-05-01"
+    endDate: "2018-04-30"
+    position: Quality Assurance Engineer
+    summary: I was tasked with designing and implementing performance tests for IoT software, 
+      conducting tests, analyzing their results and preparing performance reports.
+  - company: "University of Silesia in Katowice"
+    startDate: "2013-10-01"
+    endDate: "2018-06-30"
+    position: "Teaching practices as part of PhD studies"
+    summary: Teaching several classes, mostly for Computer Science and Applied Computer Science
+      students.
+    highlights:      
+      - Introduction to programming
+      - Programming and algorithms
+      - Algorithms and data structures
+      - Algebra
+      - Mathematics in the Earth sciences
+education:
+  - institution: "University of Silesia in Katowice "
+    area: "Physics"
+    studyType: "PhD candidate (unfinished)"
+    startDate: "2015-10-01"
+    endDate: "2022-09-01"
+    note: Moved to Polish Academy of Sciences, where I continue my PhD studies as part of
+      my employment.
+education:
+  - institution: "University of Silesia in Katowice "
+    area: "Mathematics"
+    studyType: "PhD candidate (unfinished)"
+    startDate: "2013-10-01"
+    endDate: "2018-09-01"
+    note: My scientific interests changed and so I decided to move cancel my studies in
+      maths.
+  - institution: "University of Silesia in Katowice "
+    area: "Econophysics"
+    studyType: "Masters"
+    startDate: "2012-10-01"
+    endDate: "2014-11-01"
+    note: Studies finished with obtaining master's degree in Physics.
+  - institution: "University of Silesia in Katowice"
+    area: "Mathematics"
+    studyType: "Masters"
+    startDate: "2011-10-01"
+    endDate: "2013-07-01"
+    note: Studies finished with obtaining master's degree in Mathematics.
+  - institution: "University of Silesia in Katowice"
+    area: "Mathematics"
+    studyType: "Bachelor"
+    startDate: "2008-10-01"
+    endDate: "2011-06-01"
+    note: Studies finished with obtaining bachelor's degree in Mathematics.
+  - institution: "Wyższa Szkoła Technologii Informatycznych w Katowicach"
+    area: "Computer science"
+    studyType: "Engineer"
+    startDate: "2007-10-01"
+    endDate: "2012-07-01"
+    note: Studies finished with obtaining engineering degree in Computer Science.
+
+skills:
+  - name: "Python"
+    level: "Master"
+    keywords:
+    - Standard library
+    - asyncio
+    - network programming
+  - name: "Algorithms"
+    level: "Master"
+    keywords:
+    - Algorithms
+    - Data structures
+    - Numerical methods
+  - name: "NumPy stack"
+    level: "2/3"
+    keywords:
+    - NumPy
+    - SciPy
+    - matplotlib
+    - pandas
+    - seaborn
+  - name: "Quantum Computing"
+    level: "2/3"
+    keywords:
+    - Quantum Annealing
+    - Variational Quantum Algorithms
+    - D-Wave Leap
+    - Qiskit
+    - Cirq
+    - AWS Braket
+  - name: "Parallel processing"
+    level: "2/3"  
+    keywords:
+    - CUDA
+    - OpenMP
+    - PyCUDA
+  - name: "Containerization"
+    level: "2/3"
+    keywords:
+    - Docker
+    - Podman
+  - name: "Cloud infrastructure"
+    level: "1/3"
+    keywords:
+    - AWS
+    - Google Cloud Platform
+  
+languages:
+  - language: "Polish"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "4/5"
+interests:
+  - name: "Tabletop games and miniatures painting"
+    keywords:
+      - "Star Wars Legion"
+      - "Marvel Crisis Protocol"
+      - "Fallout: Wasteland Warfare"
+  - name: "Video games"
+    keywords:
+      - FPS
+      - Turn-based strategies
+      - RPG
+      - Action RPG
+  - name: "Raising praying mantises"
+  - name: "Playing Music"
+    keywords:
+      - Piano
+      - Ukulele
