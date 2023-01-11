@@ -110,7 +110,10 @@ defaults:
       path:            assets/
     values:
       sitemap:         false
-
+  - scope:
+      type: posts
+    values:
+      comments: true
   # Don't include licenses in sitemap (feel free to delete)
   - scope:
       path:            licenses/
