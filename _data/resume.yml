@@ -54,15 +54,21 @@ work:
   - company: "Zapata Computing Inc."
     position: "Quantum Science Consultant"
     startDate: "2020-06-01"
-    endDate: ""
+    endDate: "2023-06-30"
     summary: |
-      Developing parts of Orquestra software.
+      Developing parts of Orquestra software
       <a href="https://www.zapatacomputing.com/orquestra-platform/">
         https://www.zapatacomputing.com/orquestra-platform/
+      </a>
+      and benchq software
+      <a href="https://www.zapatacomputing.com/orquestra-platform/">
+        https://www.zapatacomputing.com/benchq
       </a>
     highlights: 
       - Participated in creating libraries for modelling quantum circuits and interfacing with
         third-party hardware solutions and simulators.
+      - Participated in creating library for estimating resource needed for fault-tolerant quantum
+        computations.
       - Consulting in the design process and assisting in debugging.
   - company: "relayr"
     startDate: "2020-06-01"
