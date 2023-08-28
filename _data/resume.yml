@@ -67,6 +67,7 @@ work:
     highlights: 
       - Participated in creating libraries for modelling quantum circuits and interfacing with
         third-party hardware solutions and simulators.
+      - Participated in creating library for esimating resources needed to perform fault tolerant quantum computation.
       - Consulting in the design process and assisting in debugging.
   - company: "relayr"
     startDate: "2020-06-01"
