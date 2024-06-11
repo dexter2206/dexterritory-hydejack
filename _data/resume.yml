@@ -33,14 +33,14 @@ work:
     position: "Software developer"
     website: ""
     startDate: "2021-02-01"
-    endDate: ""
+    endDate: "2023-12-31"
     summary: >
       Working as a software developer in [EuroHPC PL](https://www.eurohpc.pl/) project.
     highlights:
       - Developing the Omnisolver software, a versatile
         framework for implementing QUBO and Ising spin glass solvers.
 
-        <a href="https://github.com/euro-hpc-pl/omnisolver">https://github.com/euro-hpc-plomnisolver</a>
+        <a href="https://github.com/euro-hpc-pl/omnisolver">https://github.com/euro-hpc-pl/omnisolver</a>
       - Developing the SpinGlassPEPS.jl, a Julia package implementing novel tensor-network based
         algorithm for finding low-energy spectrum of Ising spin glasses.
 
