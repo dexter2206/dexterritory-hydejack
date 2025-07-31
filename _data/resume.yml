@@ -32,7 +32,7 @@ basics:
 work:
   - company: "PsiQuantum"
     position: "Quantum software developer"
-    startdate: "2023-12-01"
+    startDate: "2023-12-01"
     summary:
       Developing software for Quantum Resource Estimation
     highlights:
