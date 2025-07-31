@@ -37,7 +37,11 @@ work:
       Developing software for Quantum Resource Estimation
     highlights:
       - Designing and developing QREF, a data format for storing quantum resource estimates.
+
+        <a href="https://github.com/psiq/qref">https://github.com/psiq/qref</a>
       - Developing Bartiq, open-source software for quantum resource estimation.
+
+        <a href="https://github.com/psiq/bartiq">https://github.com/psiq/bartiq</a>
       - Development and testing of various internal projects.
       - Performance testing.
   - company: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences"
