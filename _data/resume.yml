@@ -116,6 +116,12 @@ work:
       - Algebra
       - Mathematics in the Earth sciences
 education:
+  - institution: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences"
+    area: "Computer Science"
+    studyType: PhD
+    startDate: "2022-09-01"
+    endDate: "2024-06-20"
+    note: "Obtained PhD in Computer Science with distinction. Thesis title: \"Validation and benchmarking of quantum annealing technologySVa\""
   - institution: "University of Silesia in Katowice "
     area: "Physics"
     studyType: "PhD candidate (unfinished)"
@@ -123,13 +129,12 @@ education:
     endDate: "2022-09-01"
     note: Moved to Polish Academy of Sciences, where I continue my PhD studies as part of
       my employment.
-education:
   - institution: "University of Silesia in Katowice "
     area: "Mathematics"
-    studyType: "PhD candidate (unfinished)"
+    studyType: "PhD (unfinished)"
     startDate: "2013-10-01"
     endDate: "2018-09-01"
-    note: My scientific interests changed and so I decided to move cancel my studies in
+    note: My scientific interests changed and so I decided to cancel my studies in
       maths.
   - institution: "University of Silesia in Katowice "
     area: "Econophysics"
