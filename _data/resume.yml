@@ -30,6 +30,17 @@ basics:
       url: "https://www.instagram.com/swagrad/"
 
 work:
+  - company: "PsiQuantum"
+    position: "Quantum software developer"
+    startdate: "2023-12-01"
+    endDate: "Now"
+    summary:
+      Developing software for Quantum Resource Estimation
+    highlights:
+      - Designing and developing QREF, a data format for storing quantum resource estimates.
+      - Developing Bartiq, open-source software for quantum resource estimation.
+      - Development and testing of various internal projects.
+      - Performance testing.
   - company: "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences"
     position: "Software developer"
     website: ""
